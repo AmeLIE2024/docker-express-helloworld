@@ -1,0 +1,19 @@
+{
+  "name": "express-helloworld",
+  "version": "1.0.0",
+  "description": "Minimal Express application for a Docker bind mount exercise.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon --legacy-watch --watch src src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.22.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
